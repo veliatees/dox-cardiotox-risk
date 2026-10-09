@@ -27,8 +27,9 @@ Work in progress.
 - [x] Load troponin and gene counts; sum the two sequencing runs per sample
 - [x] Remove 7 failed libraries (under 2M reads; median depth is 24.6M), log-CPM, PCA by dose
 - [x] Define the target: troponin at 5 µM relative to each individual's own untreated level
-- [ ] Per-individual response features (expression at 0.625 µM minus untreated)
-- [ ] Mean-only and troponin-only baselines
+- [x] Per-individual response features (expression at 0.625 µM minus untreated): 44 individuals × 12,346 genes
+- [x] Mean-only baseline under leave-one-out cross-validation (RMSE 0.652, log2 units)
+- [ ] Troponin-only baseline
 - [ ] Elastic net under nested cross-validation, gene filtering inside each training fold
 - [ ] Candidate gene panel from selection frequency over 1,000 resampled fits
 - [ ] Results and limitations
