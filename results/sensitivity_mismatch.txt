@@ -1,0 +1,3 @@
+without mismatch-flagged lines (39 individuals):
+mean-only RMSE 0.644
+genes-only RMSE 0.608, Spearman 0.42

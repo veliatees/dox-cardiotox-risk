@@ -1,0 +1,3 @@
+observed RMSE (outer 5-fold): 0.570
+shuffled targets: median 0.676, min 0.599 over 50 permutations
+permutation p-value: 0.020

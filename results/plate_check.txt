@@ -1,0 +1,3 @@
+plate-only baseline (leave-one-out): RMSE 0.694, Spearman 0.01
+share of target variance explained by plate: 0.18
+genes-only prediction vs target within plates: Spearman 0.60

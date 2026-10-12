@@ -70,6 +70,6 @@ def response_features(logcpm, dose=0.625):
 
 
 def troponin_table(trop):
-    """Individuals x doses, log troponin."""
+    """Individuals x doses, log2 troponin."""
     wide = trop.pivot_table(index="individual", columns="dose", values="troponin")
-    return np.log(wide)
+    return np.log2(wide)

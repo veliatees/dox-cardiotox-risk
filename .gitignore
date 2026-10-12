@@ -3,3 +3,6 @@ data/
 .ipynb_checkpoints/
 .DS_Store
 NOTES.md
+__pycache__/
+.pytest_cache/
+results/permutation_log.txt
