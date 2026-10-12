@@ -1,5 +1,5 @@
 ,rmse,spearman
-mean-only,0.652,-1.0
+mean-only,0.652,
 troponin-only,0.667,0.109
 genes-only,0.54,0.546
 troponin + genes,0.54,0.542
